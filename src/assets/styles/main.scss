@@ -1,0 +1,312 @@
+body {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Arial, sans-serif;
+  font-size: 13px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  position: relative;
+  .icon-gouwuche{
+    font-size: 20px;
+    color: #000000
+  }
+  .icon-number {
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: -6px;
+    color: #ffffff;
+    border-radius: 50%;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.header {
+  width: 100%;
+}
+.header-toolbar {
+  height: 56px;
+}
+.header-title {
+  font-size: 16px;
+}
+.home {
+.v-input__slot{
+  border: 1px solid #CCCCCC !important;
+  margin-bottom: 0 !important;
+  min-height: 34px !important; 
+  padding:0 0 0 25px !important;
+  .theme--light{
+    font-size: 12px !important;
+    top: 0 !important;
+    height: 34px !important;
+    line-height: 34px !important;
+  }
+}
+.v-text-field--single-line input {
+  margin-top: 0 !important;
+  max-height: 34px !important;
+  font-size: 12px !important;
+}
+.v-text-field__details{
+  display: none;
+}
+}
+
+.product-list{
+  .v-input__slot{
+    border: 1px solid #CCCCCC !important;
+    margin-bottom: 0 !important;
+    min-height: 34px !important; 
+    padding:0 0 0 25px !important;
+    .theme--light{
+      font-size: 12px !important;
+      top: 0 !important;
+      height: 34px !important;
+      line-height: 34px !important;
+    }
+  }
+  .v-text-field--single-line input {
+    margin-top: 0 !important;
+    max-height: 34px !important;
+    font-size: 12px !important;
+  }
+  .v-text-field__details{
+    display: none;
+  }
+}
+.card-detail{
+  background: #fff;
+  .v-btn-toggle{
+    border-radius: 8px !important;
+    margin-right: 10px !important;
+  }
+  .v-btn-toggle--selected{
+    box-shadow: none !important;
+  }
+  .v-btn--active{
+    background: #264C90  !important;
+    color: #ffffff !important;
+  }
+  .v-input__slot{
+    border: 1px solid #CCCCCC !important;
+    margin-bottom: 0 !important;
+    min-height: 18px !important; 
+    padding:0  !important;
+  }
+  .v-text-field--single-line input {
+    margin-top: 0 !important;
+    max-height: 16px !important;
+    font-size: 12px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    min-width: 16px !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .v-text-field__details{
+    display: none;
+  }
+}
+ .cart{
+ .v-input--selection-controls {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+ }
+ .v-input--checkbox {
+   .v-input__slot{
+     margin-bottom: 0 !important;
+   }
+ }
+.v-text-field{
+  .v-input__slot{
+    border: 1px solid #CCCCCC !important;
+    margin-bottom: 0 !important;
+    min-height: 18px !important; 
+    padding:0 !important;
+    margin-bottom: 0 !important;
+    input {
+      margin-top: 0 !important;
+      max-height: 16px !important;
+      font-size: 12px !important;
+      height: 16px !important;
+      line-height: 16px !important;
+      min-width: 16px !important;
+      text-align: center !important;
+      padding: 0 !important;
+    }
+  }
+  .v-text-field__details{
+    display: none;
+  }
+}
+}
+.category {
+    .v-list__tile{
+      height: 46px;
+    }
+}
+.order {
+  .list__action{
+    .v-list{
+      padding: 0;
+    }
+    .v-list__tile{
+      height: 44px;
+    }
+  }
+  .customer-message{
+    .v-input__slot {
+      margin-bottom: 0 !important;
+      font-size: 13px !important;
+    }
+    .v-text-field input {
+      padding: none !important;
+    }
+  }
+}
+.my-order {
+  .order__action {
+    .order__action--btn-top{
+      margin: 0;
+      min-width: 54px;
+    }
+  }
+}
+.order-detail {
+ .list__action {
+   .v-list__tile{
+    height: 44px;
+  }
+ }
+ .list__action--address {
+  .v-list__tile__title{
+    height: auto;
+    word-break: break-all;
+    white-space: normal;
+    }
+ }
+ .list__action--status {
+  .v-list__tile{
+    height: 54px;
+  }
+ }
+ .list__action--address {
+  .v-list__tile{
+    min-height: 54px;
+  }
+ }
+}
+
+.refund-apply{
+    .v-list__tile{
+      height: 42px !important;
+    }
+    .v-text-field{
+     margin-top: 0  !important;
+     padding-top: 0  !important; 
+    }
+    .v-input__slot{
+      margin-bottom: 0 !important;
+    }
+    .v-text-field__details{
+      display: none;
+    }
+  }
+.refund-edit{
+  .v-list__tile{
+    height: 42px !important;
+  }
+  .v-text-field{
+   margin-top: 0  !important;
+   padding-top: 0  !important; 
+  }
+  .v-input__slot{
+    margin-bottom: 0 !important;
+  }
+  .v-text-field__details{
+    display: none;
+  }
+}
+.order-select-service{
+    .v-list__tile{
+      height: 58px !important;
+    }
+  }
+  .address-add{
+    .v-input{
+      font-size: 12px;
+    }
+    .v-text-field__details{
+      display: none;
+    }
+  }
+  .address-edit{
+    .v-input{
+      font-size: 12px;
+    }
+    .v-text-field__details{
+      display: none;
+    }
+  }
+.btn-color{
+    color: #648CD6 !important;
+  }
+.btn--active {
+    .btn__content {
+      background: #264c90 !important;
+      color: #fff !important;
+      padding: 0 5px !important;
+    }
+  }
+  .dialog__container {
+    .card {
+      height: 90px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: space-between !important;
+    }
+    .card__actions{
+      padding: 0 !important;
+    }
+    .card__text{
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-family:"微软雅黑";
+      font-weight: bold;
+    }
+    .btn{
+      margin: 0 !important;
+      color: #000000 !important;
+      font-family:"微软雅黑";
+      .btn__content{
+        font-size: 12px !important;
+      }
+    }
+  }
+  .vue-dropzone {
+    border: 1px dashed #e5e5e5 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    max-height: 70px !important;
+    min-height: 70px !important;
+    padding: 0 !important;
+    width: 70px;
+    .dz-image-preview {
+      display: none !important;
+    }
+  }

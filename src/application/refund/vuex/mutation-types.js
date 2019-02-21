@@ -1,0 +1,9 @@
+export const SET_ORDER_ITEM_ID = 'setOrderItemId';
+export const SET_REFUND = 'setRefund';
+export const SET_SELECT_REFUND_WAY = 'setSelectRefundWay';
+export const SET_REFUND_ORDER_ID = 'setReundOrderId';
+export const SET_REFUND_DETAIL = 'setReundDetail';
+export const SET_REFUND_ID = 'setReundId';
+export const SET_CLEAR_REFUND_ID = 'setClearReundId';
+export const SET_REFUND_AMEND = 'setReundAmend';
+export const SET_REFUND_STATE = 'setReundState';

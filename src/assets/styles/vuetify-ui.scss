@@ -1,0 +1,83 @@
+@media only screen and (max-width: 599px){
+  .container {
+    padding: 0;
+    height: 100vh;
+
+  }
+  .card{
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .card__text{
+    padding: 0
+  }
+  .toolbar .toolbar__content>:not(.btn):not(.menu):first-child:not(:only-child), .toolbar .toolbar__extension>:not(.btn):not(.menu):first-child:not(:only-child) {
+      margin-left: 15px;
+      font-size: 15px;
+  }
+
+.toolbar .toolbar__content>:not(.btn):not(.menu):last-child:not(:only-child), .toolbar .toolbar__extension>:not(.btn):not(.menu):last-child:not(:only-child) {
+    margin-right: 15px;
+}
+  .input-group--select__autocomplete{
+    font-size: 12px !important;
+  }
+  .input-group--multi-line label{
+    font-size: 12px !important;
+  }
+  .input-group--single-line{
+    font-size: 12px !important;
+  }
+  .input-group--text-field input, .input-group--text-field textarea {
+    font-size: 12px;
+  }
+  .input-group--single-line label{
+    font-size: 12px !important;
+  }
+  .input-group__selections__comma{
+    font-size: 12px !important;
+  }
+  .input-group__details{
+   display: none;
+  }
+  .btn__content{
+    font-size: 13px;
+  }
+  .v-list{
+    padding: 0;
+    background: none !important;
+  }
+  .v-list__tile{
+    padding: 0;
+    .v-list__tile__content{
+      .v-list__tile__title{
+        font-size: 12px !important;
+      }
+    }
+  }
+  .v-divider{
+    padding:  0 15px !important;
+  }
+  .v-text-field>.v-input__control>.v-input__slot:after, .v-text-field>.v-input__control>.v-input__slot:before {
+    content: none;
+}
+  .bottom-sheet{
+    max-height: 80% !important;
+    background: #ffffff !important;
+
+  }
+ .bottom-sheet  .btn-toggle{
+  margin: 3px 5px;
+ }
+ .chip{
+   margin: 0;
+   border: none;
+   background: #333333 !important;
+  .chip__content{
+    max-height: 28px;
+    min-height: 28px;
+  }
+ }
+  
+}
